@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,7 +6,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridAutoColumns:{
+        "col5":"repeat(auto-fit,350px)"
+      }
+    },
   },
   plugins: [],
 }

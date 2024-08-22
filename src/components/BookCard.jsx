@@ -35,7 +35,7 @@ const BookCard = ({ data, addCard ,active,addToCart}) => {
     }
   };
   return (
-    <div className="p-4 border border-gray-400 rounded-lg bg-white shadow-2xl cursor-pointer hover:translate-y-[-1px] h-[420px] relative"  >
+    <div className="p-4 border border-gray-400 rounded-lg bg-white shadow-2xl cursor-pointer hover:translate-y-[-1px] h-[420px] relative w-[350px]"  >
       <div className="m-auto   400 flex justify-center h-52 mb-4">
         <img src={img} alt="" className="object-contain" />
       </div>
